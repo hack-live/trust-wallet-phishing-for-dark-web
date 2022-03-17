@@ -1,0 +1,430 @@
+.mainlogo
+{
+    margin-top: 3em;
+    margin-left: 2em;
+    max-width: 90;
+}
+.maintitle
+{
+    position:inherit;
+    margin-top: 0em;
+    margin-left: 0em;  
+    max-width: 200;     
+}
+.mainphone
+{    
+    padding:0px; 
+    margin-top: -3em; 
+    max-width: 270;       
+}
+.maincontainerright
+{
+    text-align: right;
+    margin-right: 8em;
+}
+.maintext
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: lavenderblush;
+    margin-left: 6em;
+    margin-top: 3em;
+    
+   
+ 
+
+}
+a.mainlink
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-style:initial;
+    color: lavenderblush;
+    text-decoration: none;
+    margin-left: 6em;
+    margin-top: 3em;
+    margin-bottom: 20em;
+     position: absolute;
+}
+a.mainlink:hover
+{
+    color: #ffffff;
+    text-decoration: underline;         
+}
+.productcontainerleft
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lavenderblush;
+    margin-left: 7em;
+    margin-top: 7em;
+    display:flex;
+}
+.productcontainerleft .productimage
+{
+    max-width:270px;
+}
+.productcontainerleft .description
+{
+    position: relative;
+    margin-top: 3em;
+    margin-left: 2em;
+}
+.productcontainerleft .header
+{   
+    font-size: 14px;
+}  
+.productcontainerleft .amount
+{
+    font-size: 16px;   
+}
+.productcontainerleft .productlink
+{
+    color: lavenderblush;
+    font-size: 14px; 
+    text-decoration: none;   
+  
+}
+.productcontainerleft .productlink:hover
+{
+    color: #ffffff;
+    text-decoration: underline;         
+}
+.productcontainerleft .buy
+{
+    margin-top: 1em;
+    max-width: 250px;       
+}
+.productcontainerright
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lavenderblush;  
+    margin-top: 7em;    
+    text-align: right;    
+    display:flex;
+    margin-right: 7em;
+    margin-left: auto;    
+}
+.productcontainerright .productimage
+{    
+    max-width:270px;  
+    float: right;   
+}
+.productcontainerright .description
+{
+    position:relative;    
+    margin-top: 3em;
+    margin-right: 2em;
+    margin-left: auto;
+}
+.productcontainerright .header
+{   
+    font-size: 14px;
+}  
+.productcontainerright .amount
+{
+    font-size: 16px;   
+}
+.productcontainerright .productlink
+{
+    color: lavenderblush;
+    font-size: 14px; 
+    text-decoration: none;   
+  
+}
+.productcontainerright .productlink:hover
+{
+    color: #ffffff;
+    text-decoration: underline;         
+}
+.productcontainerright .buy
+{
+    margin-top: 1em;
+    max-width: 250px;       
+}
+.productcontainerrandom
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lavenderblush;   
+    margin-top: 15em;
+    display:block;
+    align-items: center;
+    text-align: center;
+}
+.productcontainerrandom .productimage
+{
+    max-width:615px;
+}
+.productcontainerrandom .description
+{
+    position: relative;
+    margin-top: 3em;
+    margin-left: 2em;
+}
+.productcontainerrandom .header
+{   
+    font-size: 14px;
+}  
+.productcontainerrandom .amount
+{
+    font-size: 16px;   
+}
+.productcontainerrandom .productlink
+{
+    color: lavenderblush;
+    font-size: 14px; 
+    text-decoration: none;   
+  
+}
+.productcontainerrandom .productlink:hover
+{
+    color: #ffffff;
+    text-decoration: underline;         
+}
+.productcontainerrandom .buy
+{
+    margin-top: 1em;
+    max-width: 250px;       
+}
+
+.imagecontainer
+{
+    display: flexbox;
+    margin-left: 3em;
+    margin-top: 3em;
+}
+.imagedetails
+{
+    max-width: 250px;
+    border-radius: 20px;
+    margin-right: 1.5em;
+}
+.imagedetailsrandom
+{
+    max-width: 550px;
+    border-radius: 20px;
+    margin-right: 1.5em;
+}
+.imagedetailssmall
+{
+    max-width: 120px;
+    border-radius: 10px;
+    margin-right: 1.5em;
+}
+.textdetails
+{    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lavender;
+    margin-top: 3em;
+}
+.textpayment
+{    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lavender;
+    font-size: 12px;
+    margin-top: 1em;
+    margin-left: 3.5em;
+}
+.detailsbuy
+{
+    margin-left: 3em; 
+    max-width: 350px; 
+}
+.linkcontact
+{
+    color: lavenderblush; 
+    text-decoration: none; 
+}
+.linkcontact:hover
+{
+    color: #ffffff;
+    text-decoration: underline;         
+}
+.price
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lavender;
+    font-size: 14px;
+}
+.button
+{
+    background:    #4b9de6;
+    border:        1px solid #ffffff;
+    border-radius: 13px;
+    padding:       20px 45px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 20px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    max-width: 300px;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+.buttonindex
+{
+    background:    #1c81da;
+    border:        1px solid #ffffff;
+    border-radius: 13px;
+    padding:       15px 30px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 18px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    max-width: 270px;
+    margin-left: 0em;
+    margin-top: 1em;
+}
+.buttonrandom
+{
+    background:    #4b9de6;
+    border:        1px solid #ffffff;
+    border-radius: 13px;
+    padding:       20px 45px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 20px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    max-width: 350px;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.buttonrefresh
+{
+    background:    #4b9de6;
+    border:        1px solid #ffffff;
+    border-radius: 13px;
+    padding:       20px 45px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 20px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    width: 300px;
+    margin-left: 0em;
+    margin-top: 3em;
+}
+.paymentcontainer
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: lavenderblush; 
+    margin-top: 3em; 
+    margin-left: 3em;   
+    text-align: left;    
+    display:flex;    
+}
+.loading
+{
+    width: 60px;
+    height: 60px;
+    margin-top: 3em;
+    margin-left: 0;
+    position: relative;
+}
+.qr
+{
+    width: 150px;
+    height: 150px;
+    border:        1px solid #ffffff;
+    border-radius: 13px; 
+    color:         #ffffff;
+    display:       inline-block;    
+    text-align:    center;
+    
+    margin-left: 0em;
+    margin-top: 3em;
+}
+
+.check
+{
+    width: 150px;
+    height: 150px;
+ 
+    color:         #ffffff;
+    display:       inline-block;    
+    text-align:    center;
+    
+    margin-left: 0em;
+    margin-top: 3em;
+}
+.paymentcontainer .status
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #3656af;  
+    margin-top: 1em; 
+    margin-left: 1em;   
+    text-align: left;
+    position: absolute;            
+}
+.req
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: lavenderblush; 
+    margin-top: 1em; 
+    margin-left: 0em;   
+    text-align: left;    
+    display:flex;  
+}
+.field
+{
+  
+    border-radius: 8px;
+    position:relative; 
+    height: 40px;    
+    margin-top: 1em; 
+    
+}
+.receipt
+{
+    position: relative;
+    margin-top: 51m;
+}
+.detailstext
+{  
+  
+    position: relative;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-top: 3em;
+    color: lavenderblush; 
+}
+.faq
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-top:12em;
+    color: lavenderblush;
+   
+}
+.faq .ask
+{
+    font-size: 14px;
+    margin-top: 3em;
+    font-weight: bold
+}
+.end
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-top: 1em;
+    margin-left: 1em;
+    color: lavenderblush; 
+}
+
+
+
+.confirmationwords
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: rgb(82, 80, 80);
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    padding:2em;
+    margin-top: 3em;
+    margin-left: 1em;
+    
+}
